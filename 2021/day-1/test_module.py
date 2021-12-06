@@ -20,7 +20,7 @@ class UnitTests(unittest.TestCase):
         self.assertEqual(actual_output_type, expected_output_type,
                          'Expected `find_count_measurement_increases()` to return a value of type int.')
 
-    def test_find_find_count_of_slide_window_increases_with_provided_input(self):
+    def test_find_count_of_slide_window_increases_with_provided_input(self):
         actual_output = find_count_of_slide_window_increases(INPUT)
         expected_output = 1600
         self.assertEqual(actual_output, expected_output,
